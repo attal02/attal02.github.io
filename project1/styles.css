@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Metamorphous&display=swap');
+
+
+li, a {
+    font-family: "Metamorphous", sans-serif;
+    margin: 0 20px;
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;  
+}
+
+h1 {
+    font-family: "Metamorphous", sans-serif;
+    font-size: 55px;
+    font-weight:50;
+    margin: 0;
+    color: white;
+    padding: 15%
+
+}
+
+nav {
+    background: black;
+    height: 5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.main {
+    height: 67vh;
+    background-color:#342D2D;
+
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:3px solid #FF006B;
+    padding: 70px;
+    margin: -480px 530px;
+
+    
+}
+
+.blackbar {
+    background-color:black;
+    height: 60px;
+}
+
+.pinkbar {
+    background-color:#FF006B;
+    height: 30px;
+}
+
+.secondpart {
+    background-color: #100F0F;
+    height: 100vh;
+}

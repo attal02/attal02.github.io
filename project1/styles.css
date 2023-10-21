@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
 
 
 li, a {
@@ -33,11 +35,14 @@ ul {
 
 .main {
     height: 67vh;
-    background-color:#342D2D;
+    /* background-color:#342D2D; */
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
 
 }
 
-.circle{
+/* .circle{
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -46,7 +51,7 @@ ul {
     margin: -480px 530px;
 
     
-}
+} */
 
 .blackbar {
     background-color:black;
@@ -60,5 +65,166 @@ ul {
 
 .secondpart {
     background-color: #100F0F;
-    height: 100vh;
+    height: 300vh;
+    display:block;
 }
+
+
+h2 {
+    /* font-family: "Metamorphous", sans-serif;
+    margin: 0px;
+    font-size: 40px;
+    font-weight:50; */
+    color: #FF006B;
+    font-family: Metamorphous;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 733px;
+    height: 663px;
+    
+}
+
+
+.hero {
+    /* width: 570px;
+    height: 745px; */
+    width: 570px;
+    height: 745px;
+    background-image: url(hippocrates\ portrait.png);
+    background-size:cover;
+    margin-left: 3%; 
+    margin-top: -52%;
+    transition: background-image 1s ease-in-out;
+    
+}
+
+.hero:hover {
+    background-image: url('hippohover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 745px;
+    margin-left: 3%; 
+    margin-top: -52%;
+  }
+
+
+  .anatomy {
+
+    background-image: url('anatomy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 686px;
+    width: 520px;
+    margin-left: 55%; 
+    margin-top: -60%;
+    padding-top: 0%;
+    transition: background-image 1s ease-in-out;
+
+  }
+
+  /* .anatomy:hover{
+    background-image: url('leftdown.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 686px;
+    width: 520px;
+    margin-left: 55%; 
+    margin-top: -60%;
+    padding-top: 0%;
+    
+  } */
+
+
+  .topright {
+    height: 360px;
+    width: 300px;
+    margin-left: 55%; 
+    margin-top: -60%;
+    padding-top: 0%;
+    transition: background-image 3s ease-in-out;
+
+  }
+  .topright:hover {
+    height: 360px;
+    width: 300px;
+    background-color:#FF006B;
+    opacity: 50%;
+    margin-left: 55%; 
+    margin-top: -60%;
+    padding-top: 0%;
+
+  }
+
+  .topleft {
+    height: 360px;
+    width: 300px;
+    margin-left: 0%; 
+    margin-top: -70%;
+    padding-top: 0%;
+    transition: background-image 3s ease-in-out;
+
+  }
+  .topleft:hover {
+    height: 360px;
+    width: 300px;
+    background-color:#0077ff;
+    opacity: 50%;
+    margin-left: 0%; 
+    margin-top: -70%;
+    padding-top: 0%;
+
+  }
+
+  .bottomleft {
+    height: 360px;
+    width: 300px;
+    margin-left: 0%; 
+    margin-top: -70%;
+    padding-top: 0%;
+    transition: background-image 3s ease-in-out;
+
+  }
+
+  .bottomleft:hover {
+    height: 360px;
+    width: 300px;
+    background-color:#00ff00;
+    opacity: 50%;
+    margin-left: 0%; 
+    margin-top: -70%;
+    padding-top: 0%;
+
+  }
+
+  .bottomright {
+    height: 360px;
+    width: 300px;
+    margin-left: 55%; 
+    margin-top: 0%;
+    padding-top: 0%;
+    transition: background-image 3s ease-in-out;
+
+  }
+
+  .bottomright:hover {
+    height: 360px;
+    width: 300px;
+    background-color:#ff0008;
+    opacity: 50%;
+    margin-left: 55%; 
+    margin-top: 0%;
+    padding-top: 0%;
+
+  }

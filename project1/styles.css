@@ -42,17 +42,6 @@ ul {
 
 }
 
-/* .circle{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border:3px solid #FF006B;
-    padding: 70px;
-    margin: -480px 530px;
-
-    
-} */
-
 .blackbar {
     background-color:black;
     height: 60px;
@@ -71,10 +60,6 @@ ul {
 
 
 h2 {
-    /* font-family: "Metamorphous", sans-serif;
-    margin: 0px;
-    font-size: 40px;
-    font-weight:50; */
     color: #FF006B;
     font-family: Metamorphous;
     font-size: 50px;
@@ -97,28 +82,16 @@ p {
 
 
 .hero {
-    /* width: 570px;
-    height: 745px; */
     width: 570px;
     height: 745px;
     background-image: url(hippocrates\ portrait.png);
     background-size:cover;
+    padding: -80px;
     margin-left: 3%; 
     margin-top: -52%;
-    transition: background-image 1s ease-in-out;
+    position:absolute;
     
 }
-
-.hero:hover {
-    background-image: url('hippohover.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 570px;
-    height: 745px;
-    margin-left: 3%; 
-    margin-top: -52%;
-  }
-
 
   .anatomy {
 
@@ -130,30 +103,17 @@ p {
     margin-left: 55%; 
     margin-top: -60%;
     padding-top: 0%;
-    transition: background-image 1s ease-in-out;
+    transition: background-image 3s ease-in-out;
 
   }
-
-  /* .anatomy:hover{
-    background-image: url('leftdown.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 686px;
-    width: 520px;
-    margin-left: 55%; 
-    margin-top: -60%;
-    padding-top: 0%;
-    
-  } */
-
 
   .topright {
     height: 360px;
     width: 300px;
     margin-left: 55%; 
-    margin-top: -60%;
+    margin-top: -20%;
     padding-top: 0%;
-    transition: background-image 3s ease-in-out;
+    transition: background-image 1s ease-in-out;
 
   }
   .topright:hover {
@@ -162,7 +122,7 @@ p {
     background-color:#FF006B;
     opacity: 50%;
     margin-left: 55%; 
-    margin-top: -60%;
+    margin-top: -10%;
     padding-top: 0%;
 
   }
@@ -171,9 +131,9 @@ p {
     height: 360px;
     width: 300px;
     margin-left: 0%; 
-    margin-top: -70%;
+    margin-top: -72%;
     padding-top: 0%;
-    transition: background-image 3s ease-in-out;
+    transition: background-image 1s ease-in-out;
 
   }
   .topleft:hover {
@@ -182,7 +142,7 @@ p {
     background-color:#0077ff;
     opacity: 50%;
     margin-left: 0%; 
-    margin-top: -70%;
+    margin-top: -60%;
     padding-top: 0%;
 
   }
@@ -191,9 +151,9 @@ p {
     height: 360px;
     width: 300px;
     margin-left: 0%; 
-    margin-top: -70%;
+    margin-top: -60%;
     padding-top: 0%;
-    transition: background-image 3s ease-in-out;
+    transition: background-image 1s ease-in-out;
 
   }
 
@@ -214,7 +174,7 @@ p {
     margin-left: 55%; 
     margin-top: 0%;
     padding-top: 0%;
-    transition: background-image 3s ease-in-out;
+    transition: background-image 1s ease-in-out;
 
   }
 
@@ -228,3 +188,18 @@ p {
     padding-top: 0%;
 
   }
+
+  .blood {
+    background-color: #000000;
+    height: 130vh;
+}
+
+#girl
+{
+  height: 960px;
+}
+
+#prometheus {
+  height: 650px;
+  margin-left: 470px;
+}

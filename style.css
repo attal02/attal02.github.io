@@ -46,6 +46,8 @@ div {
 
 #dogs {
     margin-left: 700px;
+    display:block;
+    position:absolute;
     margin-top: -640px;
     border-radius: 20px;
 

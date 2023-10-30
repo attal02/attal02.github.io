@@ -106,7 +106,7 @@ p {
     transition: background-image 3s ease-in-out;
 
   }
-
+/* 
   .topright {
     height: 360px;
     width: 300px;
@@ -163,12 +163,12 @@ p {
     background-color:#00ff00;
     opacity: 50%;
     margin-left: 0%; 
-    margin-top: -70%;
+    margin-top: 0%;
     padding-top: 0%;
 
-  }
+  } */
 
-  .bottomright {
+  /* .bottomright {
     height: 360px;
     width: 300px;
     margin-left: 55%; 
@@ -185,9 +185,9 @@ p {
     opacity: 50%;
     margin-left: 55%; 
     margin-top: 0%;
-    padding-top: 0%;
+    padding-top: 0%; */
 
-  }
+  /* } */
 
   .blood {
     background-color: #000000;
@@ -230,5 +230,21 @@ p {
 
 .phlegm {
   background-color: #000000;
-  height: 130vh;
+  height: 270vh;
+}
+
+#elipse {
+  margin-left: 400px;
+
+}
+
+#biting {
+  margin-top: -500px;
+  width: 1500px;
+
+}
+
+#skull {
+  margin-left: 800px;
+  margin-top: 90px;
 }

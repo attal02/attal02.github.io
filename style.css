@@ -1,14 +1,52 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+    
+
 body {
-    background-color:rgb(255, 247, 238)
+    background-color:rgb(64, 46, 118);
 }
 h1 {
     text-align: center;
+    color:white;
+    font-family:rubik;
 }
 h2 {
-    text-align:center
+    text-align:center;
+    color: white;
+    font-family: rubik;
 }
 p {
-    font-family: Cormorant Garamond;
+    font-family: Rubik;
     text-align: center;
+    font-size: 30px;
+}
+
+section {
+    background: rgb(32, 22, 61);
+    color: white;
+    width: 20%;
+    margin:5%;
+    border-radius: 20px;
+    padding: 80px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+div {
+    background: rgb(112, 106, 230);
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    height: 130px;
+    margin: auto;
+
+}
+
+#dogs {
+    margin-left: 700px;
+    margin-top: -640px;
+    border-radius: 20px;
+
 }

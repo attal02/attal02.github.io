@@ -1,0 +1,70 @@
+* {box-sizing: border-box;}
+body {
+  margin:0;
+}
+img {
+  width:100%;
+}
+.hero-home {
+  width:90%;
+  margin:auto;
+}
+.hero-home .slide > img {
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.slick-dots {
+  bottom: 25px;
+}
+.slide {
+  position:relative;
+  padding:20px;
+}
+.overlay {
+  position:absolute;
+  top:0;
+  left: 60px;
+  width: 35%;
+  height:110%;
+  background-color:blueviolet;
+}
+header {
+  background-color:#999;
+  display:flex;
+  width:100vw;
+  align-items:center;
+  padding: 10px 20px 0 20px;
+  /* position:fixed; turn all these on for position fixed.
+  top:0;
+  left:0;
+  right:0; */
+}
+.logo {
+  flex:25%;
+}
+.logo-img {
+  width:80px;
+}
+nav {
+  flex:75%;
+}
+
+nav ul { 
+  list-style:none;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+  margin:0;
+}
+nav li {
+  padding:10px 0;
+
+  
+}
+nav li a {
+  padding:10px 30px;
+  color: #333;
+}
+nav li a:hover {
+  color:rgb(116, 81, 116);
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="border">
+    <div class="logo">
+    <a href="index.html"><img class="logo-img" src="/project 2/aya-p2/imgs/darkhorse.png" alt="#"></a>
+    </div>
+      
+      <!-- <nav class="border"> -->
+      <nav class="nav">
+      <div class="icon">
+      <div class="hamburger"></div>
+      </div>
+      <div class="menu-mobile">
+        <a href="index.html">HOME</a>
+        <a href="comics.html">COMICS</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="newsletter.html">NEWSLETTER</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </nav>
+      <nav class="desktop">
+        <div class="menu-desktop">
+          <a href="comics.html">COMICS</a>
+          <a href="products.html">PRODUCTS</a>
+          <a href="newsletter.html">NEWSLETTER</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
+    </nav>
+  </header>
+
+  <main class= "comic">
+    <h2 id="titles" style="text-align: center; margin-top: 2%; color:#CF331F;">Talk to Us!</h2>
+    <div class="contactdiv">
+        <form action="#">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="first name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="last name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">E-mail</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 100%; padding-left: 2%; padding-top: 2%;"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+  </main>
+
+  <footer>
+
+    <table>
+        <tr>
+          <th>SERVICES</th>
+          <th>CONTACT US</th>
+          <th>COMPANY</th>
+        </tr>
+        <tr>
+          <td>Custom Publishing</td>
+          <td>FAQ</td>
+          <td>RSS</td>
+        </tr>
+        <tr>
+          <td>International Licensing</td>
+          <td>Submissions</td>
+          <td>Licensing</td>
+        </tr>
+        <tr>
+          <td>Subscribe</td>
+          <td>Subscribe</td>
+          <td>Culture</td>
+        </tr>
+      </table>
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+  </html>

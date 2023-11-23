@@ -13,6 +13,13 @@ $('.comics-carousel').slick({
   arrows: true,
 });
 
+$('.comics-carousel2').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: true,
+});
+
 "use strict"
 
 function toggleIcon() {
@@ -35,6 +42,7 @@ function desktopMenu() {
       $("nav.desktop").fadeIn(500)
     }
   })
+
 }
 
 //when the page loads call toggleIcon;
